@@ -71,7 +71,7 @@ img{
     padding: 150px 0;
 }
 .feature {
-    width: 31%;
+    width: 32%;
     text-align: center;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -106,5 +106,26 @@ img{
     text-align: center;
     font-size: 24px;
     font-weight: 700;
+    line-height: 35px;
+}
+
+/* working process section */
+.working-process{
+    padding: 80px 0;
+}
+.processes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #2727270D;
+    padding: 87px 0;
+}
+.process{
+    text-align: center;
+}
+.process p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
     line-height: 35px;
 }
