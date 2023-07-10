@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family:Lato;
 }
 img{
@@ -24,6 +25,21 @@ img{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 /* Banner section */
 .banner-section{
@@ -49,4 +65,46 @@ img{
 .banner-right{
     width: 50%;
     text-align: right;
+}
+/* Feature section */
+.feature-section{
+    padding: 150px 0;
+}
+.feature {
+    width: 31%;
+    text-align: center;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    position: relative;
+}
+.feature1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+.feature2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+.feature3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+.feature-img1 {
+    margin-top: 110px;
+}
+.feature-img2 {
+    margin-top: 100px;
+}
+.feature-img3 {
+    margin-top: 67px;
+}
+.features{
+    padding-top: 48px;
+}
+.link {
+    position: absolute;
+    bottom: -79px;
+    left: 110px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
 }
