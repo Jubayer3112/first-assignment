@@ -36,10 +36,10 @@ img{
 .section-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding: 24px 0;
 }
 /* Banner section */
 .banner-section{
@@ -110,8 +110,8 @@ img{
 }
 
 /* working process section */
-.working-process{
-    padding: 80px 0;
+.working-process {
+    padding: 90px 0 134px;
 }
 .processes{
     display: flex;
@@ -128,4 +128,19 @@ img{
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
+}
+
+/* offer section */
+.offer-section .flex{
+    justify-content: space-evenly;
+}
+.offer-section {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 85px 0;
+}
+.offer-section .section-content{
+    text-align: center;
+}
+.offer-section span{
+    color: #E55473;
 }
