@@ -156,3 +156,26 @@ img{
 .social{
     padding: 100px 0;
 }
+
+/* newslatter */
+
+.newlater-form{
+    text-align: center;
+}
+.newlater-form [type="email"] {
+    width: 700px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 16px;
+    padding: 23px 0 23px 23px;
+}
+.newslatter-main {
+    background: url("../images/Rectangle\ 9.png");
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
