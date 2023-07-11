@@ -144,3 +144,15 @@ img{
 .offer-section span{
     color: #E55473;
 }
+
+
+/* Social section */
+.social-post{
+    width: 25%;
+}
+.social-posts{
+    margin-top: 30px;
+}
+.social{
+    padding: 100px 0;
+}
