@@ -144,8 +144,29 @@ img{
 .offer-section span{
     color: #E55473;
 }
+/* product section */
 
-
+.product{
+    width: 22%;
+}
+.product-content{
+    text-align: center;
+    margin-top: 20px;
+}
+p.product-title {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+p.price del {
+    margin-left: 13px;
+    color: red;
+}
+.products{
+    margin-top: 40px;
+}
+.products-section{
+    padding: 100px 0;
+}
 /* Social section */
 .social-post{
     width: 25%;
