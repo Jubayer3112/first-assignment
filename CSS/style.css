@@ -164,9 +164,15 @@ p.price del {
 .products{
     margin-top: 40px;
 }
-.products-section{
-    padding: 100px 0;
+.products-section {
+    padding: 100px 0 20px;
 }
+
+.sale-img {
+    width: 31%;
+    margin-top: 100px;
+}
+
 /* Social section */
 .social-post{
     width: 25%;
